@@ -1,0 +1,49 @@
+* {    
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    
+    text-align: center;
+}
+
+.main-title {
+    font-size: 3.2rem;
+}
+
+.subtitle {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 2.5rem;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    background-color: #c0c0c0; 
+    width: 940px;   
+    height: 800px;
+    padding: 10px 20px;
+}
+
+
+img {
+    box-sizing: border-box;
+    width: 180px;
+    height: 180px;
+    border: 3px solid #000000;
+    margin: 5px;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
